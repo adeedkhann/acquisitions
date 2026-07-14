@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+prisma/
+*.logs
+package-lock.json
