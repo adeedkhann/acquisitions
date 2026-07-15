@@ -34,6 +34,6 @@ app.get('/api', (req , res)=>{
   });
 });
 
-app.use('/auth/' , authRouter);
+app.use('/api/auth' , authRouter);
 
 export default app;

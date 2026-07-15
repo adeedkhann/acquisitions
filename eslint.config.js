@@ -4,7 +4,7 @@ import globals from 'globals'; // 1. Import the official globals package
 export default [
   // Global ignores MUST be in their own object, usually at the very top
   {
-    ignores: ['node_modules/**', 'coverage/**', 'logs/**', 'drizzle/**'],
+    ignores: ['node_modules/**', 'coverage/**', 'logs/**', 'drizzle/** ' , 'src/generated/**'],
   },
 
   js.configs.recommended,
