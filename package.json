@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/adeedkhann/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.5.0",
+    "@arcjet/node": "^1.5.0",
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
     "bcrypt": "^6.0.0",

@@ -13,7 +13,7 @@ export const hashPassword = async(password)=>{
 export const createUser = async({name , email , password , role='user'})=>{
   try {
     const existingUser = await prisma.user.findUnique({
-      where:{email : email}
+      where:{email}
     });
 
     if(existingUser){
